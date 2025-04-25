@@ -110,7 +110,7 @@ p{
     background-color: #F55442;
     color: #ffffff;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 10px;
 }
 
 .btn-1:hover{
@@ -197,10 +197,10 @@ h2{
 .information{
     padding: 100px 400px 400px 400px;
     text-align: center;
-    background-color: #fbfbfb;
+    background-color: #FBFBFB;
 }
 
-.information-content{
+.information-content {
     position: relative;
 }
 
@@ -222,9 +222,9 @@ h2{
 
 .in3{
     position: absolute;
-    width: 225px;
-    left: 500px;
-    top: 300px;
+    width: 250px;
+    left: 490px;
+    top: 230px;
     rotate: 220deg;
 }
 
@@ -367,7 +367,6 @@ form{
 
     .menu{
         padding: 30px;
-        top: 0;
     }
 
     .menu label{
@@ -436,7 +435,7 @@ form{
         flex-direction: column;
     }
 
-    .ab1 .ab2 .ab3{
+    .ab1, .ab2, .ab3{
         display: none;
     }
 
@@ -454,12 +453,15 @@ form{
         text-align: center;
     }
 
-    .h2{
+    h2{
         font-size: 70px;
         line-height: 80px;
     }
 
-    .in1 .in2 .in3{
+    .information{
+        padding: 30px 30px 100px 30px;
+    }
+    .in1, .in2 , .in3{
         display: none;
     }
 
@@ -470,13 +472,13 @@ form{
     .contact-table{
         width: 100%;
         margin-top: -120px;
-    }
+    } 
 
     .form-content{
         padding: 30px;
     }
 
-    .form{
+    form{
         flex-direction: column;
     }
 
