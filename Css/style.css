@@ -223,8 +223,8 @@ h2{
 .in3{
     position: absolute;
     width: 250px;
-    left: 490px;
-    top: 230px;
+    left: 0;
+    top: 50px;
     rotate: 220deg;
 }
 
